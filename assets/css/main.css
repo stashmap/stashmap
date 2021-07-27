@@ -1,0 +1,118 @@
+.mainMapWrapper {
+    margin : 0 auto;
+    width : 500px;
+    background: #e8eff7;
+    padding: 20px;
+
+    border-radius: 5px;
+    border: 1px solid #e8eff7;
+    *margin-top: 10%;
+    
+}
+
+.registrationLink {
+    font-size: 18px;
+}
+
+body {
+    background: black;
+}
+
+.mainWrapper{
+    margin : 20px;
+    width : 700px;
+    background: #e8eff7;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #e8eff7;    
+}
+
+.errorMessage {
+    color : red;
+}
+
+body.page404 {
+    background: #fff;
+}
+
+body.page404 img{
+    width : 100%;
+}
+
+.control {
+    cursor: pointer;    
+    width: 30px;
+    height: 30px;
+    border-radius : 10px;
+    border : 1px solid #333;
+}
+
+.hide {
+    display : none;
+}
+
+.speed-dial-container{
+    margin-top : 50px;
+    margin-left : 100px;
+    margin-right : 100px;
+    border : 2px solid #e8eff7;
+    border-radius : 30px;
+    background: #ccc;
+    opacity: 0.8;
+}
+
+.speed-dial-container div{
+    max-width: 250px;
+    width : 250px;
+    height : 170px;
+    margin : 25px;
+    opacity : 1;
+    border : 1px solid #e8eff7;
+    border-radius : 10px;
+    display: inline-block;
+    /*transition: transform 0.25s;
+    transform: scale(1.0);*/
+}
+
+.speed-dial-container div div{
+    background : #fff;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.speed-dial-container div:hover{
+    /*transition: transform 0.15s;
+    transform: scale(1.006);*/
+}
+
+.userTile {
+    position : relative;
+}
+
+.speed-dial-container a {
+    cursor: pointer;
+}
+
+.deleteTile {
+    position : absolute;
+    top: 1px;
+    right : 1px;
+    opacity : 0;
+    transition: transform 0.25s;
+    transform: scale(1);
+
+}
+
+.speed-dial-container a:hover .deleteTile {
+    opacity : 1;
+}
+
+.deleteTile:hover {
+    transition: transform 0.25s;
+    transform: scale(1.1006);
+}
+
+
+
+

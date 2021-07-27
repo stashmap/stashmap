@@ -1,0 +1,12 @@
+.control {
+    cursor: pointer;    
+    width: 30px;
+    height: 30px;
+    border-radius : 10px;
+    border : 1px solid #333;
+}
+
+.save-button {
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+}

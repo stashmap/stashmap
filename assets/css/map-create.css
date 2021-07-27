@@ -1,0 +1,171 @@
+.map-parts-viewport {
+    width : 90%;
+    height: 100%;
+    background: #e8e3f7;
+    width : 90%;
+    height: 500px;
+    float : left;
+    overflow: auto;
+    position: relative;
+
+}
+
+.map-parts-top {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    
+}
+.map-parts-bottom {
+    position: absolute;
+    top: 954px;
+    left: -44px;
+    opacity: 0.5;    
+}
+
+.map-layers {
+    background : #abc;
+    float: right;
+    width : 300px;
+}
+
+.mapEditorWrapper {
+}
+
+.control-element {
+    width: 85%;
+    margin: 0 auto;
+}
+.pic-preview {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    padding-top : 3px;
+    padding-bottom : 3px;
+}
+
+.pic-preview > img {
+    width : 100%;
+    margin: 0 auto;
+    display : block;
+    border-radius : 4px;    
+}
+
+
+.map-layers-control {
+    width: 136px;
+    position: absolute;
+    top : 4px;
+}
+
+.map-layers-control td{
+    text-align: center;
+}
+
+.control-to-move-one-px-left {
+    cursor: pointer;
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+    border: 1px solid #c25cdc;
+}
+
+.control-to-move-one-px-right {
+    cursor: pointer;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+    border: 1px solid #c25cdc;
+}
+
+.control-to-move-one-px-up {
+    cursor: pointer;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border: 1px solid #c25cdc;
+}
+
+.control-to-move-one-px-down {
+    cursor: pointer;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border: 1px solid #c25cdc;
+}
+
+
+.bounds-left-upper-corner-control {
+    width : 20px;
+    height: 20px;
+    transform: translate(-10px, -10px);
+    background: #c25cdc;
+    position : absolute;
+    z-index: 2;
+    cursor: move;
+}
+
+.bounds-right-lower-corner-control {
+    width : 20px;
+    height: 20px;
+    transform: translate(-10px, -10px);
+    background: #c25cdc;
+    position : absolute;
+    z-index: 2;
+    cursor: nwse-resize;
+}
+
+.bounds-left {
+    padding : 0px;
+    margin: 0px;
+    height: 0px;
+    width: 0px;
+    z-index: 1;
+    background: #2a2d2f;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    opacity: 0.6;
+}
+
+.bounds-top {
+    padding : 0px;
+    margin: 0px;
+    height: 0px;
+    width: 0px;
+    z-index: 1;
+    background: #2a2d2f;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    opacity: 0.6;
+}
+
+.bounds-right {
+    padding : 0px;
+    margin: 0px;
+    height: 0px;
+    width: 0px;
+    z-index: 1;
+    background: #2a2d2f;
+    position: absolute;
+    opacity: 0.6;
+}
+
+.bounds-bottom {
+    padding : 0px;
+    margin: 0px;
+    height: 0px;
+    width: 0px;
+    z-index: 1;
+    background: #2a2d2f;
+    position: absolute;
+    opacity: 0.6;
+}
+
+.pic-preview > h3 {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    border-radius: 4px;
+    background: #c25cdc;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

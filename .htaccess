@@ -1,0 +1,13 @@
+<IfModule mod_rewrite.c>
+
+   RewriteEngine On
+
+   RewriteCond %{REQUEST_FILENAME}  -f [OR]
+   RewriteCond %{REQUEST_FILENAME} !-f
+   RewriteCond %{REQUEST_URI} !^/assets/*
+   RewriteCond %{REQUEST_URI} !^/content/*
+   RewriteCond %{REQUEST_URI} !^/dayside/*
+   RewriteCond %{REQUEST_URI} !^/favicon.ico/*   
+   RewriteRule ^(.*)$ index.php [L,QSA]
+
+</IfModule>
